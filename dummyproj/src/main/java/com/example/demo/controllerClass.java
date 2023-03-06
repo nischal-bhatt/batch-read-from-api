@@ -23,9 +23,13 @@ public class controllerClass {
 		Customer a3 = new Customer();
 		a3.setId(666);
 		
+		Customer a4 = new Customer();
+		a4.setId(6667);
+		
 		a.add(a1);
 		a.add(a2);
 		a.add(a3);
+		a.add(a4);
 		
 		return a;
 		
